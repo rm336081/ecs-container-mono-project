@@ -17,6 +17,6 @@ phases:
      commands:
      - echo "DONE!!!!"
      
- artifacts:
+artifacts:
  files: 
      - elb.txt
