@@ -11,8 +11,8 @@ phases:
       - npm -v
  build:
      commands:
-      - /bin/bash deploy.sh us-east-1 mono-trab-stack
       - echo "teste" >> elb.txt
+      - sudo /bin/bash deploy.sh us-east-1 mono-trab-stack
  post_build:
      commands:
       - echo "DONE!!!!"
