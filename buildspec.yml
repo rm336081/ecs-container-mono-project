@@ -11,6 +11,7 @@ phases:
       - npm -v
  build:
      commands:
+      - usermod -a -G docker ec2-user
       - echo "teste" >> elb.txt
       - /bin/bash deploy.sh us-east-1 mono-trab-stack
  post_build:
