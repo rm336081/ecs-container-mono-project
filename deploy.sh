@@ -119,7 +119,7 @@ do
 
 			TARGET_GROUP_ARN=`aws elbv2 create-target-group \
 				--region $REGION \
-				--name LB \
+				--name LBm \
 				--vpc-id $VPCID \
 				--port 80 \
 				--protocol HTTP \
